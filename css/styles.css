@@ -1,0 +1,19 @@
+h1.james {
+   letter-spacing: .15em;
+   text-align: center;
+   font-family: 'Raleway';
+}
+nav {
+   margin-left: auto;
+   margin-right: auto;
+}
+nav ul {
+   list-style-type: none;
+}
+nav li {
+   display: inline-block;
+   padding-right: 2.5em;
+}
+a {
+   text-decoration: none;
+}
