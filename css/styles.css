@@ -1,19 +1,136 @@
-h1.james {
-   letter-spacing: .15em;
-   text-align: center;
+/* =============== GLOBAL STYLES ============== */
+h1, h2, h3, h4, h5, h6 {
    font-family: 'Raleway';
 }
-nav {
-   margin-left: auto;
-   margin-right: auto;
-}
-nav ul {
-   list-style-type: none;
-}
-nav li {
-   display: inline-block;
-   padding-right: 2.5em;
+p {
+   font-size: 1rem;
+   line-height: 1.5;
 }
 a {
    text-decoration: none;
+}
+ul {
+   list-style-type: none;
+}
+/* =============== END: GLOBAL STYLES ============== */
+
+/* =============== Header ============== */
+header {
+   min-height: 286px;
+   background-color: #44474c;
+}
+.main_menu {
+   padding: 50px 5px 0 5px;
+   text-align: center;
+   margin-bottom: -30px;
+}
+.main_menu ul {
+   display: inline-block;
+   padding: 10px 0 75px 0;
+}
+.main_menu li {
+   display: inline-block;
+}
+.main_menu li a {
+   font-family: 'Raleway';
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 300;
+   font-size: 1.2em;
+   padding: 4px 8px;
+   margin: 0 26px;
+   opacity: .8;
+}
+.main_menu a:hover,
+.main_menu li a.home {
+   border-bottom: 1px solid red;
+   opacity: 1;
+}
+.main_menu img {
+   padding: 0 44px;
+   margin: -5px 0 5px 0;
+}
+.james {
+   color: #fff;
+   letter-spacing: .2em;
+   text-align: center;
+   font-weight: 100;
+   font-size: 2.7em;
+   margin: 0;
+}
+/* =============== END: Header ============== */
+
+/* =============== Section One ============== */
+.sec-1-header {
+   margin: 100px 0 50px 0;
+}
+.sec-1-header p {
+   font-weight: 600;
+   color: #666;
+}
+.about {
+   margin-bottom: -8px;
+}
+.separator {
+   margin: 0;
+   width: 362px;
+   border: 0;
+   height: 2px;
+   background-image: linear-gradient(to right, rgba(255, 0, 0, 1) 1%, rgba(255, 0, 0, .5) 30%, rgba(255, 255, 255, 1));
+}
+.info {
+   display: inline-block;
+}
+.b1 {
+   font-family: 'Raleway';
+   position: absolute;
+   bottom: 0;
+   background-color: red;
+   padding: 15px;
+   color: #fff;
+   text-transform: uppercase;
+   border: none;
+}
+.sec-1-main .col-3 {
+   height: 220px;
+}
+.sec-1-main .s1-box-1 {
+   margin: 0 2% 0 0;
+   width: 23%;
+}
+.sec-1-main .s1-box-1 h5 {
+   font-family: 'Open Sans';
+   font-size: 1.5em;
+   font-weight: 400;
+}
+.sec-1-main img {
+   padding: 0 16px 8px 0;
+}
+.sec-1-main div {
+   position: relative;
+   margin-bottom: 8px;
+}
+.sec-1-main h3 {
+   font-family: 'Open Sans';
+   text-transform: uppercase;
+   display: inline-block;
+   font-size: 1.25em;
+   position: absolute;
+   bottom: 0;
+}
+.sec-1-main .col-3:not(.s1-box-1) {
+   margin: 0 1%;
+   width: 23%;
+   border: 1px solid #aaa;
+   padding: 24px 20px 25px 20px;
+}
+.sec-1-main .col-3:not(.s1-box-1) p {
+   font-family: 'Raleway';
+   font-weight: 400;
+   font-size: .95em;
+}
+h3 {
+   /* border: 1px solid black;
+   transform-origin: right top;
+   transform: skewY(45deg); */
 }

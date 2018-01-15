@@ -10,6 +10,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+
+* {   /* I (James Chastain) added this; it is was not here originally */
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -32,7 +41,7 @@ html {
 }
 
 ::selection {
-    background: red;
+    background: #3399FF;
     text-shadow: none;
 }
 
@@ -92,5 +101,3 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
-

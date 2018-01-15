@@ -11,44 +11,49 @@
     <link rel="apple-touch-icon" href="avatar.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="/css/boilerplate-reset.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/boilerplate-reset.css">
     <link rel="stylesheet" href="grid-files/simple-grid.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900">
 </head>
 <body>
    <header>
-      <nav>
+      <nav class="main_menu">
          <ul>
-            <li><a href="#">Home</a></li>
+            <li><a class="home" href="#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
+            <li><img src="img/logo-header.png"></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact</a></li>
          </ul>
       </nav>
 
-      <h1 class="james font-light">James Chastain</h1>
+      <h1 class="james">James Chastain</h1>
    </header>
 
    <section class="container">
-      <h1>About Me</h1>
-      <p class="info">This who I am - or at least who I strive to be...</p>
-      <div class="row">
-         <div class="col-3">
-            <p>If you can't explain it simply, you don't understand it well enough.</p>
+      <div class="sec-1-header">
+         <h1 class="about">About Me</h1>
+         <hr class="separator">
+         <p class="info">This who I am - or at least who I strive to be...</p>
+      </div>
+      <div class="row sec-1-main">
+         <div class="col-3 s1-box-1">
+            <h5>If you can't explain it simply, you don't understand it well enough.</h5>
+            <button class="b1" type="button">The more you know</button>
          </div>
          <div class="col-3">
-            <h3>Typography</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore saepe, sunt voluptate? Eius tempora, inventore, impedit sunt necessitatibus non fugit fugiat voluptate laboriosam quia iste voluptatibus, aperiam placeat aut voluptatum.</p>
+            <div><img src="img/ti-paragraph.png"><h3>Typography</h3></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore saepe, sunt voluptate? Eius tempora, inventore</p>
          </div>
          <div class="col-3">
-            <h3>Full Icon Set</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptates debitis molestiae, nihil suscipit praesentium, expedita obcaecati accusamus velit quo sequi minus qui quae provident consectetur nostrum nam odio. Suscipit!</p>
+            <div><img src="img/ti-vector.png"><h3>Full Icon Set</h3></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur voluptates debitis molestiae, nihilmet, consectetur adipisicing elit. Aspernatur volup</p>
          </div>
          <div class="col-3">
-            <h3>Accurate</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, corrupti consequuntur voluptates excepturi aliquid deserunt tempore, totam eum mollitia recusandae nihil, tenetur sint expedita ratione cupiditate quasi earum voluptatibus aspernatur!</p>
+            <div><img src="img/ti-ruler-alt2.png"><h3>Accurate</h3></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, corrupti consequuntur</p>
          </div>
       </div>
    </section>
